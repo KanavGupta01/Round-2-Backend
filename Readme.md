@@ -15,4 +15,6 @@ Next step would be to create worker threads and offload the actual appending job
 
 Another apporach could be to return a job ID and close the tcp connection for the POST request. This can be helpful in improving performance as keeping connections open is costly. The client can then keep quering another endpoint about the status of the job using the ID we provided.
 
+Also, the code quality could have been better, but my brain was siezing to function due to nervousness lol.
+
 That's all from my side. Thanks for reading.
